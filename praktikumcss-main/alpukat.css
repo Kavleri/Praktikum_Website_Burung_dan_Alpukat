@@ -1,0 +1,214 @@
+body {
+    background-color: lightblue;
+    font-family: 'Lucida Sans', 'Verdana', 'sans-serif';
+}
+
+h1{
+    text-align: center;
+    color: blueviolet;
+}
+
+p{
+    text-align: justify;
+    width: fit-content;
+}
+
+.center{
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    float: right;
+}
+
+.foto{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.foto img{
+    width: 23%;
+}
+
+.cod {
+    margin: auto;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.cod  p{
+    background-color: aqua;
+    border: 1px dotted red;
+    text-align: center;
+    font-weight: bold;
+    color: blue;
+}
+
+.promo{
+    background-color: #f0f0f0;
+    text-align: center;
+    color: green;
+}
+
+.tombol{
+    color: blue;
+    display: flex;
+    justify-content: center;
+}
+
+.container-highlight {
+    background-color: #8d6e63;
+    padding: 0px;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    width: 90px;
+    border-radius: 10px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    box-sizing: border-box;
+}
+
+.bagian1 {
+    background-color: rgba(140,117,49,255); 
+    color: white; 
+    display: flex; 
+    width: 1020px;
+}
+.bagian1 div {
+    flex: 1;
+}
+.bagian1 div h3 {
+    font-family: Arial, Helvetica, sans-serif; 
+    font-weight: bold;
+}
+.bagian1 div p {
+    margin: 0; 
+}
+.bagian1 div span {
+    font-style: italic; 
+    font-weight: bold;
+}
+#lanjutan {
+    flex: 1; 
+    margin-right: 70px;
+}
+#lanjutan h3 {
+    font-family: Arial, Helvetica, sans-serif; 
+    font-weight: bold;
+}
+#lanjutan p {
+    margin: 0; 
+    margin-top: -1px;
+}
+#lanjutan span {
+    font-weight: bold;
+}
+.bagian2 {
+    background-color: rgba(140,117,49,255); 
+    color: white; 
+    display: flex; 
+    width: 1020px;
+}
+.bagian2 div {
+    flex: 1; 
+    margin-left: 180px;
+}
+.bagian2 h3 {
+    font-family: Arial, Helvetica, sans-serif; 
+    font-weight: bold;
+}
+#p1 {
+    margin: 0; margin-top: -13px;
+}
+#p2 {
+    margin: 0;
+}
+#span1 {
+    font-weight: bold;
+}
+#span2 {
+    font-style: italic;
+}
+#lanjutan2 {
+    flex: 1;
+    margin-left: -40px;
+}
+
+/* Gaya node */
+.node {
+    position: absolute;
+    width: 140px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Posisi spesifik untuk tiap node */
+#node1 { top: 50px; left: 330px; }
+#node2 { top: 150px; left: 100px; }
+#node3 { top: 150px; left: 560px; }
+#node4 { top: 300px; left: 230px; }
+#node5 { top: 300px; left: 430px; }
+
+/* Kontainer SVG untuk garis */
+.lines {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+/* Mengatur agar tabel berada di tengah halaman */
+.table-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+
+/* Mengatur gaya tabel */
+table {
+    width: 70%;
+    border-collapse: collapse;
+    text-align: left;
+    font-family: Arial, sans-serif;
+    background-color: #f4f8fb;
+    border: 1px solid #4370b4;
+}
+
+/* Header tabel */
+th {
+    background-color: #417fdb;
+    color: white;
+    padding: 10px;
+}
+
+/* Sel tabel */
+td {
+    padding: 10px;
+    border: 1px solid #6c7ee9;
+}
+
+ /* Warna baris ganjil */
+ tr:nth-child(odd) {
+    background-color: #fdfeff;
+}
+
+/* Warna baris genap */
+tr:nth-child(even) {
+    background-color: #72abe4;
+}
+
+/* Judul kolom pertama */
+th, td:first-child {
+    text-align: center;
+}

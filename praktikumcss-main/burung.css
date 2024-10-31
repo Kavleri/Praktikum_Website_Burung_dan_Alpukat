@@ -1,0 +1,45 @@
+h1{
+    color: white;
+    text-align: center;
+    background-color: rgb(82, 78, 78);
+}
+
+#header{
+    background-attachment: fixed;
+    height: 150px;
+    padding: 10px;
+    background-color: blueviolet;
+}
+
+body{
+    background-color: aqua;    
+}
+
+.quotes{
+    text-align: center;
+    background-color: yellow;
+}
+
+.menu li{
+    display: inline;
+    margin: 40px;
+}
+
+.menu a{
+    margin-left: 210px;
+}
+
+.menu a:hover{
+    font-weight: bold;
+    color: brown
+}
+
+.isi::first-letter{
+    color: blue;
+    font-size: 40px;
+}
+
+.gambar {
+    display: flex;
+    justify-content: center;
+}
